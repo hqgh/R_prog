@@ -1,4 +1,5 @@
 makeCacheMatrix <- function(x = numeric()) {
+# cache matrix inverse
   s <- NULL
   set <- function(y) {
     x <<- y
